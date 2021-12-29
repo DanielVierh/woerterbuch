@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Wörterbuch</title>
+        <link rel="stylesheet" href="style.css" />
+    </head>
+    <body>
+        <h1>Wörterbuch</h1>
+        <div class="searchbox">
+            <input type="text" placeholder="Wort suchen" id="txtWord" />
+            <button onclick="searchForWord()">Suchen</button>
+        </div>
+
+        <div class="container">
+            <h2 id="foundWord"></h2>
+            <div class="desc">
+                <p id="desc"></p>
+            </div>
+        </div>
+        <script src="app.js"></script>
+    </body>
+</html>

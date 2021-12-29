@@ -1,0 +1,75 @@
+body {
+  background-color: #6b6b60;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: white;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.container {
+  background-color: #eeeeee;
+  width: 90%;
+  height: 70%;
+  border: 3px solid rgba(172, 172, 172, 0.363);
+  -webkit-box-shadow: 0 0 35px black;
+          box-shadow: 0 0 35px black;
+  margin: 50px;
+  padding: 15px;
+  border-radius: 20px;
+  -webkit-transition: 1s ease-in-out;
+  transition: 1s ease-in-out;
+}
+
+#foundWord {
+  text-align: center;
+  font-size: 1.1rem;
+  color: black;
+  letter-spacing: 3px;
+  background-color: #ced3d3;
+  border-radius: 10px;
+  border: 1px solid black;
+  word-break: break-word;
+}
+
+.desc {
+  color: black;
+  font-size: 1rem;
+  font-style: italic;
+  background-color: #f0f0af;
+  border-radius: 15px;
+  padding: 15px;
+  overflow-y: auto;
+  max-height: 70vh;
+  -webkit-box-shadow: 2px 2px 5px black;
+          box-shadow: 2px 2px 5px black;
+}
+
+input {
+  border-radius: 10px;
+  height: 30px;
+  padding: 5px;
+  font-size: 1.1rem;
+}
+
+button {
+  height: 40px;
+  width: 70px;
+  background-color: #22241e;
+  color: white;
+  font-weight: bold;
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+}
+/*# sourceMappingURL=style.css.map */
