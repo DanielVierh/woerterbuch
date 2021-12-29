@@ -22,9 +22,6 @@ async function searchForWord() {
             const res = await fetch(apiLink + searchWord.value);
             const data = await res.json();
             // console.log(data);
-            const allSearchResults = data;
-            allSearchResults.forEach;
-
             const fullDefinitionArray = data[0].meanings[0].definitions;
 
             fullDefinitionArray.forEach((element) => {

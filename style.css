@@ -1,5 +1,6 @@
 body {
-  background-color: #6b6b60;
+  background: -webkit-gradient(linear, left top, right top, from(#2768bd), to(#999));
+  background: linear-gradient(to right, #2768bd, #999);
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -18,7 +19,9 @@ body {
 }
 
 .container {
-  background-color: #eeeeee;
+  background: rgba(255, 255, 255, 0.1);
+  -webkit-backdrop-filter: blur(30px);
+          backdrop-filter: blur(30px);
   width: 90%;
   height: 70%;
   border: 3px solid rgba(172, 172, 172, 0.363);
@@ -34,19 +37,17 @@ body {
 #foundWord {
   text-align: center;
   font-size: 1.1rem;
-  color: black;
+  color: white;
   letter-spacing: 3px;
-  background-color: #ced3d3;
-  border-radius: 10px;
-  border: 1px solid black;
   word-break: break-word;
+  text-shadow: 2px 2px 15px white;
 }
 
 .desc {
   color: black;
   font-size: 1rem;
   font-style: italic;
-  background-color: #f0f0af;
+  background-color: rgba(255, 255, 255, 0.26);
   border-radius: 15px;
   padding: 15px;
   overflow-y: auto;
